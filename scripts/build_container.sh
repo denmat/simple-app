@@ -1,5 +1,5 @@
 #!/bin/bash
 
-export DOCKER_HOST=`ps aux | awk '/docker daemon/ {print $16}'`
+source common.sh
 
 docker-compose build
