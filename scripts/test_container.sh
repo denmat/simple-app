@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source common.sh
+source scripts/common.sh
 
 docker run --name simple_app --rm simpleapp_simple
 
